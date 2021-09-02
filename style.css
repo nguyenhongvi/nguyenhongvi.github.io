@@ -1,13 +1,9 @@
-*{
-    box-sizing: border-box;
-}
-.row{
-display: flex;
-}
-.column{
-    flex: 50%;
-    padding: 10px;
-    height: 300%;
+.img{
+    position: fixed;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
 }
 body{
     width: 100vw;
@@ -15,14 +11,6 @@ body{
     text-align: left;
     position: grid;
     height: 100%;
-
-}
-.wave{
-    position: fixed;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
 }
 
 .container{
@@ -33,30 +21,41 @@ body{
     width: 400px;
     border-radius: 5px;
 }
-.login-container{
-    display: flex;
-    align-items: center;
+.head{
+    font-family:  Lobster;
+    color: black;
     text-align: center;
+    padding: 20px 0px 40px 0px;
 }
-form h2{
-    font-size: 2.9rem;
-    text-transform: uppercase;
-    margin: 15px 0 ;
+.head-two{
+    color: gray;
+    text-align: center;
+    padding: 0px 0px 20px 0px;;
+}
 
-}
 .input-div{
     display: grid;
-    grid-template-columns: 7% 93%;
-    margin: 25px 0;
+    grid-template-columns: 0% 100%;
+    margin: 10px 0;
     padding: 5px 0;
+    font-size: 0px;
     border-bottom: 2px solid #d9d9d9;
+
+}
+.fname{
+    border: none;
+    height: 20px;
+    width: 100px;
+    font-size: 17px;
 }
 .input-div.one{
-    margin-top: 0;
+    margin: 0px 0px 0px 0px;
+
 }
 .input-div.two{
     margin-bottom: 4px;
 }
+
 .i{
     display: flex;
     justify-content: center;
@@ -73,23 +72,25 @@ form h2{
     padding: 0 5px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-
 }
 
-.btn{
-    display: block;
+.btt{
+    float: none;
     width: 50%;
     height: 50px;
-    border-radius: 25px;
-    margin: 1rem 0;
-    font-size: none;
+    padding: 12px;
+    margin: 5px 0;
+    display: inline-block;
     outline: none;
     border: none;
-    background-image: linear-gradient(to right, gray, gray, gray);
-    cursor: pointer;
+    font-size: 17px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, grey, grey, grey);
     color: #fff;
-    font-family: 'Poppins', sans-serif;
-    background-size: 200%;
-    transition: .5s;
+    transform: translate(50%, -5%);
+    -ms-transform: translate(50%, -25%);
+}
+
+.create{
     text-align: center;
 }
