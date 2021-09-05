@@ -5,57 +5,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css"> 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-
 </head>
-<img class="img" src="images/hinhanh.jpg">
+<img class="img" src="images/image_vit.PNG">
 <body>
-    <div class="container"> 
-        <form>
-            <div class="head">
-                <p style="font-size: 40px;">
-                    <i>Lovebirds</i>
-                </p>
+    <div class="container">
+        <div class="text-one">
+            <h1>Lovebirds</h1>
+        </div>
+        <div class="text-two">
+            <p>Welcome to Lovebirds</p>
+        </div>
+        <form class="form-input">
+            <div>
+                <p>Users name or Email</p>
+                <input type="text" class="fname" id="fname" name="fname" value="">
             </div>
-            <div class="head-two">
-                <h1 style="font-size: 20px;">
-                    <p style="color: gray;">Welcome the Lovebirds</p>
-                    </h1>
+            <div>
+                <p>Password</p>
+                <input type="password" class="password" id="psw" name="psw" pattern="">
             </div>
-                       
-            <div class="input-div one">
-                <div class="i">
-                    <i class="fas fa-user"></i>
-                </div>
-                <div>
-                    <h5 style="color: gray;">
-                        <p  style="font-size: 15px;">User name or Email</p>
-                    </h5>
-                    <input type="text" class="fname" id="fname" name="fname" value="">
-                </div>
+            <br>
+            <div class="forget">
+                <a href="#">Forget password</a>
             </div>
-            
-            <div class="input-div two">
-                <div class="i">
-                    <i class="fas fa-lock"></i>
-                </div>
-                <div>
-                    <h5 style="color: gray;">
-                        <p style="font-size: 15px;">Password</p>
-                    </h5>
-                    <input type="password" class="fname" id="psw" name="psw" pattern="">
-                </div>
-            </div>  
-            <div class="for" style="text-align: right;">
-                <a href="#" >Forget password?</a>
-            </div>     
-            <button class="btt" >Sign in</button>
-            <div class= "create">
-                <a style="color:grey;"><br>-----------or-----------<br><br></a>
-                <p >Sign in with Google</p>
-                <a style="color: gray;"><br>New Lovebirds?</a>
-                <a href="https://dribbble.com/signup/new">Create Account</a>
-            </div>      
         </form>
+        <div class="btt">
+            <button class="sign-in">Sign in</button>
+        </div>
+        <div class="or" >
+            <a>-------------------or---------------------</a>
+        </div>
+        <div class="hinh">
+            <a href="#">
+                <img class="google" src="images/google.jpg">
+            </a>
+            <a>Sign in with Google</a>
+        </div>
+        <div class="sign">
+            <a>New Lovebirds?</a>
+            <a href="https://dribbble.com/signup/new">Create Account</a>
+        </div>
     </div>
+   
 </body>
 </html>

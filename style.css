@@ -1,16 +1,10 @@
 .img{
     position: fixed;
     height: 100%;
-    left: 0;
-    bottom: 0;
+    width: 50%;
     z-index: -1;
-}
-body{
-    width: 100vw;
-    height: 50vh;
-    text-align: left;
-    position: grid;
-    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .container{
@@ -21,76 +15,72 @@ body{
     width: 400px;
     border-radius: 5px;
 }
-.head{
-    font-family:  Lobster;
-    color: black;
-    text-align: center;
-    padding: 20px 0px 40px 0px;
+body{
+    position: grid;
+    height: 100%;
+
 }
-.head-two{
-    color: gray;
+.text-one{
     text-align: center;
-    padding: 0px 0px 20px 0px;;
+    padding-bottom: 20px;
+    font-family:  Lobster;
+    font-size: 20px;
+}
+.text-two{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 18px;
 }
 
-.input-div{
+.form-input{
     display: grid;
-    grid-template-columns: 0% 100%;
-    margin: 10px 0;
-    padding: 5px 0;
-    font-size: 0px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.fname{
+    border: none;
+    font-size: 20px;
+    width: 400px;
+    border-bottom: 2px solid #d9d9d9;
+}
+.password{
+    border: none;
+    font-size: 20px;
+    width: 400px;
     border-bottom: 2px solid #d9d9d9;
 
 }
-.fname{
-    border: none;
-    height: 20px;
-    width: 100px;
-    font-size: 17px;
-}
-.input-div.one{
-    margin: 0px 0px 0px 0px;
-
-}
-.input-div.two{
-    margin-bottom: 4px;
-}
-
-.i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.input{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-    background: none;
-    padding: 0 5px;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+.forget{
+    margin-left: auto;
 }
 
 .btt{
-    float: none;
-    width: 50%;
-    height: 50px;
-    padding: 12px;
-    margin: 5px 0;
-    display: inline-block;
-    outline: none;
-    border: none;
-    font-size: 17px;
-    border-radius: 25px;
-    background-image: linear-gradient(to right, grey, grey, grey);
-    color: #fff;
-    transform: translate(50%, -5%);
-    -ms-transform: translate(50%, -25%);
-}
-
-.create{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+    
+}
+.sign-in{
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-image: linear-gradient(to right, grey, grey, grey);
+    border-radius: 25px;
+}
+.or{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.hinh{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.sign{
+    text-align: center;
+}
+.google{
+    height: 20px;
 }
